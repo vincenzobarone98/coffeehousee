@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Homepage CoffeeHouse" />
+    <meta name="keywords" content="caffe, coffeehouse, cialde, capsule" />
+    <meta name="author" content="Team 4" />
+    <title>CoffeeHouse</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background: url('img/sfondoCoffee.jpg');
+            background-size: cover;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 15px;
+            background: rgba(194,130,66,0.5);
+            color:#333;
+        }
+        nav {
+            text-align: center;
+            background: #c28242;
+            padding: 10px;
+        }
+        nav a {
+                color: #fff;
+                text-decoration: none; 
+                margin: 0 15px;
+        }
+        section {
+            text-align: center;
+            padding: 50px;
+            background: rgba(0,0,0,0.5);
+            color: #fff;
+            border-radius: 15px;
+            margin: 20px;
+        }
+        section h2 {
+            color: #fff;
+        }
+        section ul {
+            list-style: none; 
+            padding: 0;
+        }
+        section a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .inputbox button {
+            background: #3498db;
+            color: #fff;
+            margin: 10px;
+            padding: 10px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .inputbox {
+            text-align: center;
+            padding: 50px;
+            background: rgba(0,0,0,0.5);
+            color:#fff;
+            border-radius: 15px;
+            margin: 20px;
+            
+        }
+
+        .inputbox label {
+            
+            text-align: center;
+            text-decoration: none;
+        }
+        .inputbox a{
+            text-decoration: none;
+            color:#000080;
+        }
+        footer {
+            text-align: center;
+            background: rgba(0,0,0,0.5);
+            color: #fff;
+            border-radius:15px;
+            margin:20px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Coffee House</h1>
+        <p>La casa del caffè</p>
+        <img src="img/logoCoffee.webp" alt="questa è un'immagine" height="125" width="125" />
+
+    </header>
+    <!--navigazione tra le varie pagine html-->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="chiSiamo.html">Chi Siamo</a>
+        <a href="contatti.html">Contatti</a>
+        <a href="prenotazioni.html">Prenotazioni</a>
+    </nav>
+    <!--introduzione all'azienda-->
+    <section>
+
+        <p>Vi presentiamo Coffe House, piccola azienda del settore ristorazione in fase di sviluppo.</p>
+        <p>Coffe House si impegna a servire i propri clienti in modo esaustivo tutte le proprie esigenze</p>
+        <p>Servizi che offriamo:</p>
+        <ul>
+            <li>Aperitivi</li>
+            <li>Compleanni</li>
+            <li>Feste di Laurea</li>
+            <li>Wi-Fi gratuito</li>
+            <li>Servizio d'asporto</li>
+        </ul>
+    </section>
+
+    <section>
+        <p>Cosa aspetti!!</p>
+        <p>Prenota subito un tavolo</p>
+        <a href="prenotazioni.html">CLICCA QUI</a>
+    </section>
+    <!--sezione dedicatas al nostro menu-->
+    <section>
+
+
+        <h2>Dai un'occhiata al nostro menu</h2>
+
+        <a href="menu.html">
+            <img src="img/te.jfif" alt="questa è un'immagine" height="150" width="150" />
+        </a>
+        <p>Clicca <a href="menu.html">QUI</a> per vedere il nostro menu completo!</p>
+
+
+    </section>
+    <br />
+
+    <!--registrazione-->
+
+    <form class="inputbox">
+        <label for="email">Email</label>
+        <br />
+        <input type="email" required>
+        <br />
+
+        <label for="">Password</label>
+        <br />
+        <input type="password" required>
+        <br />
+        <button type="submit">Accedi</button>
+        <br />
+        <label for=""><input type="checkbox">Ricordami</label>
+        <br />
+        <label><a href="#"> Recupera la password</a></label>
+
+
+        <p>Non hai un Account? <a href="#">Registrati qui!</a></p>
+    </form>
+
+
+    <footer>
+        <p>&copy; 2024 CoffeeHouse Team 4. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
